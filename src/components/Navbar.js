@@ -3,10 +3,9 @@ export default function Navbar() {
         <a href="/">Home</a>
     
         <ul>
-            <li><a href="/Inventory">Inventory</a></li>
-            <li><a href="/Recipes">Recipes</a></li>
-            <li><a href="/SignIn">Sign In</a></li>
-            <li><a href="/SignOut">Sign Out</a></li>
+            <li><a href="/inventory">Inventory</a></li>
+            <li><a href="/recipes">Recipes</a></li>
+            <li><a href="/signin">Sign In</a></li>
         </ul>
     </nav>
 }

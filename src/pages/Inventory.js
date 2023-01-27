@@ -1,3 +1,3 @@
-export default function Home() {
-    <h1>Inventory</h1>
+export default function Inventory() {
+    return <h1>Inventory</h1>
 }

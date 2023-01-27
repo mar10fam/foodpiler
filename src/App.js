@@ -7,31 +7,31 @@ import Registration from './pages/Registration';
 import SignIn from './pages/SignIn';
 
 function App() {
-  let component
+  let Component
   switch(window.location.pathname) {
     case "/": 
-      component = <Home />
+      Component = Home
       break
-    case "/Inventory":
-      component = <Inventory />
+    case "/inventory":
+      Component = Inventory
       break
-    case "/Recipes":
-      component = <Recipes />
+    case "/recipes":
+      Component = Recipes
       break
-    case "/SignIn": 
-      component = <SignIn />
+    case "/signin": 
+      Component = SignIn
       break
-    case "/Registration":
-      component = <Registration /> 
+    case "/registration":
+      Component = Registration
       break
     default:
-      component = <Home />
+      Component = Home
   }
-
+console.log(Component);
   return (
   <>
     <Navbar />
-    <div className="container">{component}</div>
+    <div className="container"><Component /></div>
   </>
   )
 }
