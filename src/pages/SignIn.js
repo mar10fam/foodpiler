@@ -1,3 +1,7 @@
+import { Link } from "react-router-dom";
+ 
 export default function SignIn() {
-    return <h1>Sign In</h1>
+    return (
+    <Link to="/registration">Register</Link>
+    ) 
 }
